@@ -1,0 +1,40 @@
+ROUTE AND TRANSPORT NETWORK SYSTEM - SAMPLE VERIFIED OUTPUT
+
+Sample Input
+------------
+Number of locations: 5
+0 Delhi
+1 Noida
+2 Faridabad
+3 Gurugram
+4 Meerut
+
+Number of routes: 7
+0 1 20
+0 2 30
+0 3 25
+1 2 18
+1 3 15
+2 3 22
+3 4 40
+
+Sample Menu Execution
+---------------------
+
+1. Display Transport Network
+2. Find All Available Routes (DFS)
+3. DFS Traversal
+4. BFS Traversal
+5. Find Route with Minimum Stops (BFS)
+6. Find Shortest Distance using Dijkstra
+7. Display Locations
+8. Exit
+
+Sample results:
+- DFS route enumeration: routes are generated using recursive backtracking.
+- BFS traversal: visits the network level by level.
+- Minimum-stop route: computed using BFS.
+- Dijkstra: computes the minimum weighted distance using non-negative edge weights.
+- Exit: Thank you for using the system!
+
+This file is provided as sample execution input/output documentation.
